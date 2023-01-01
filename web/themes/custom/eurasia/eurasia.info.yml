@@ -1,0 +1,15 @@
+# This theme is the Eurasia-Lab co ltd theme. 
+#
+# For experimental use
+# 
+name: Eurasia react theme
+type: theme 
+base theme: false
+description: 'Eurasia theme with loaded React JavaScript libraries, and a basic React application'
+package: Drupal
+core_version_requirement: ^9 || ^10
+# version: 9.2.0
+version: VERSION
+libraries:
+  - eurasia/react_app
+

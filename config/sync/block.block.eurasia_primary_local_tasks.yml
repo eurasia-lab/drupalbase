@@ -1,0 +1,22 @@
+uuid: 6d8a75b6-5b69-477f-a062-fff7202a4666
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eurasia
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: eurasia_primary_local_tasks
+theme: eurasia
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
